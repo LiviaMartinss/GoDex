@@ -8,6 +8,8 @@ services:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: example
       POSTGRES_DB: pokedex
+    ports:
+      - "5432:5432"
     volumes:
       - db-data:/var/lib/postgresql/data
 
