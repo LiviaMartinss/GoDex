@@ -32,6 +32,8 @@ services:
       DATABASE_PASSWORD: example
       DATABASE_NAME: pokedex
       RAILS_ENV: development
+      DATABASE_URL: postgresql://user:example@db:5432/pokedex
+      RAILS_MASTER_KEY: feabca1b7b352169ab917816a3007a81
 
   # Serviço do frontend
   frontend:
