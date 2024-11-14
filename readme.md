@@ -9,46 +9,6 @@ Esse projeto foi desenvolvido como parte de um desafio técnico. O objetivo era 
 
 ---
 
-## Instruções para Rodar o Projeto Localmente
-
-Para executar a aplicação em ambiente local usando Docker, siga as etapas abaixo:
-
-### Pré-requisitos
-
-- Ter o Docker e o Docker Compose instalados em sua máquina.
-
-### Passo a Passo
-
-1. No diretório onde está o `docker-compose.yml` (caso esteja em um repositório combinado ou em um diretório acima de `frontend` e `backend`), execute o seguinte comando:
-
-   ```bash
-   docker-compose up --build
-   ```
-
-   Esse comando irá:
-   - Buildar as imagens Docker para o backend, frontend e o banco de dados.
-   - Iniciar os containers e integrar os serviços.
-
-2. Acesse a aplicação:
-
-   - O **frontend** estará disponível em `http://localhost:3000`.
-   - O **backend** estará disponível em `http://localhost:3001` (ou em outra porta especificada no Docker Compose).
-   - A comunicação entre o frontend e o backend deve funcionar localmente, permitindo que o frontend acesse o backend para buscar os dados dos Pokémon.
-
-## Como Funciona a Integração
-
-- O frontend se comunica com o backend para buscar informações sobre os Pokémon. Quando o usuário pesquisa um nome de Pokémon, o frontend faz uma requisição HTTP para o backend, que consulta o banco de dados e retorna os dados necessários.
-- O banco de dados PostgreSQL é instanciado e configurado no Docker Compose para fornecer persistência ao backend.
-
-## Documentação e Acesso
-
-- O backend inclui uma documentação de API usando Swagger, que pode ser acessada em `http://localhost:3001/api-docs` (caso o Swagger esteja configurado dessa forma).
-- Acesse a aplicação completa no seu navegador para explorar a Pokédex e verificar as informações dos Pokémon.
-
-
-
-# Como fiz o meu projeto?
-
 ### 1. Clonagem e Configuração Inicial dos Repositórios
 
 Primeiramente, clonei os repositórios originais de Backend e Frontend, depois configurei para meu repositório local usando o comando:
@@ -112,8 +72,11 @@ Adicionei classes CSS para destacar o título e para tornar a página mais inter
 
 ---
 
+### Testes e Vídeo de Demonstração
 
+Gravei um vídeo mostrando a aplicação rodando localmente com o Docker. Este vídeo demonstra a funcionalidade da aplicação e como ela pode ser acessada no ambiente local, incluindo as interações do frontend e as respostas da API do backend.
 
+**Link para o vídeo de demonstração**: [Vídeo no YouTube](URL_do_video)
 
 ### Instruções para Rodar o Projeto Localmente
 
@@ -134,6 +97,8 @@ Adicionei classes CSS para destacar o título e para tornar a página mais inter
 
 3. **Acessando a Aplicação:**
    - Frontend: `http://localhost:80`
+   - Backend: `http://localhost:3000`
+   - Adminer (banco de dados): `http://localhost:8080`
 
 ### Conclusão
 
