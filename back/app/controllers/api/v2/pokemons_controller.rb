@@ -11,12 +11,15 @@ module Api
         end
       end
 
+      private
+
       def pokemon_name
         params[:pokemon_name]
       end
 
       def pokemon_info
-        @pokemon_info = PokeapiService.get_pokemon_info(pokemon_name)
+        # Aqui estamos chamando o serviço externo para obter as informações do Pokémon
+        @pokemon_info ||= PokeapiService.get_pokemon_info(pokemon_name)
       end
     end
   end
