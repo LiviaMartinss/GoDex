@@ -1,13 +1,50 @@
-
 # ✨Documentação - Pokedéx
 
-
 ## Introdução
-
 
 Esse projeto foi desenvolvido como parte de um desafio técnico. O objetivo era integrar uma aplicação backend em Ruby com uma aplicação frontend em React, ambos containerizados com Docker, com a adição de um banco de dados PostgreSQL e o gerenciamento desse banco de dados pelo Adminer. Além disso, foi solicitado o deploy da aplicação utilizando CI/CD com GitHub Workflows e Vercel. Documentei o desenvolvimento em etapas para compartilhar o processo, os desafios e as soluções implementadas :)
 
 ---
+
+## Instruções para Rodar o Projeto Localmente
+
+Para executar a aplicação em ambiente local usando Docker, siga as etapas abaixo:
+
+### Pré-requisitos
+
+- Ter o Docker e o Docker Compose instalados em sua máquina.
+
+### Passo a Passo
+
+1. No diretório onde está o `docker-compose.yml` (caso esteja em um repositório combinado ou em um diretório acima de `frontend` e `backend`), execute o seguinte comando:
+
+   ```bash
+   docker-compose up --build
+   ```
+
+   Esse comando irá:
+   - Buildar as imagens Docker para o backend, frontend e o banco de dados.
+   - Iniciar os containers e integrar os serviços.
+
+2. Acesse a aplicação:
+
+   - O **frontend** estará disponível em `http://localhost:3000`.
+   - O **backend** estará disponível em `http://localhost:3001` (ou em outra porta especificada no Docker Compose).
+   - A comunicação entre o frontend e o backend deve funcionar localmente, permitindo que o frontend acesse o backend para buscar os dados dos Pokémon.
+
+## Como Funciona a Integração
+
+- O frontend se comunica com o backend para buscar informações sobre os Pokémon. Quando o usuário pesquisa um nome de Pokémon, o frontend faz uma requisição HTTP para o backend, que consulta o banco de dados e retorna os dados necessários.
+- O banco de dados PostgreSQL é instanciado e configurado no Docker Compose para fornecer persistência ao backend.
+
+## Documentação e Acesso
+
+- O backend inclui uma documentação de API usando Swagger, que pode ser acessada em `http://localhost:3001/api-docs` (caso o Swagger esteja configurado dessa forma).
+- Acesse a aplicação completa no seu navegador para explorar a Pokédex e verificar as informações dos Pokémon.
+
+
+
+# Como fiz o meu projeto?
 
 ### 1. Clonagem e Configuração Inicial dos Repositórios
 
