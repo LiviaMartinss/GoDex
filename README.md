@@ -111,8 +111,9 @@ Após resolver vários desafios, consegui finalmente rodar a integração entre 
 ### 8. Desafios no Deploy Final no Vercel e Render
 
 A integração no Vercel continuou a apresentar problemas, especialmente o erro 404. Tentei investigar possíveis causas, como variáveis de ambiente e configurações específicas do backend, mas não consegui configurar o backend adequadamente no Render.
-![o](front/src/assets/vercel.jpeg)
-![e](front/src/assets/redis.jpeg)![alt text]({86C8B9F2-A8D7-4EC7-A26B-DB7BD6584F93}.png)
+![vercel](front/src/assets/vercel.jpeg)
+![render](front/src/assets/redis.jpeg)
+![link vercel](front/src/assets/{86C8B9F2-A8D7-4EC7-A26B-DB7BD6584F93}.png)
 Apesar disso, localmente a aplicação funcionava perfeitamente, e decidi focar em documentar esse processo no README.
 
 ### 9. Estilização e Melhoria Visual
