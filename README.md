@@ -19,7 +19,7 @@
   - [Integração Completa e Testes Locais](#7-integração-completa-e-testes-locais)
   - [Desafios no Deploy Final no Vercel e Render](#8-desafios-no-deploy-final-no-vercel-e-render)
   - [Estilização e Melhoria Visual](#9-estilização-e-melhoria-visual)
-- [Conclusão](#conclusão)
+- [Conclusão](#Conclusão (Leia é importante!))
 
 ---
 
@@ -155,4 +155,6 @@ Adicionei classes CSS para destacar o título e para tornar a página mais inter
 
 ## Conclusão (Leia é importante!)
 
-Amei a experiência de mergulhar em algo novo e trabalhar com ruby, queria expressar aqui que senti muito por não ter conseguido completar o desafio da maneira que queria, mas também procurei fazer além do que me pediram, essa não é a primeira vez que tento uma vaga com vocês, pois acredito muito nos valores da empresa e quero muito poder fazer parte desse time incrível! Se não for dessa vez podem ter certeza que tentarei novamente :) Estou disposta a estudar cada vez mais sobre ruby e seria uma grande alegria aprender mais com vocês, 
+Amei a experiência de mergulhar em algo novo e trabalhar com ruby, queria expressar aqui que senti muito por não ter conseguido completar o desafio da maneira que queria, mas também procurei fazer além do que me pediram, essa não é a primeira vez que tento uma vaga com vocês, pois acredito muito nos valores da empresa e quero muito poder fazer parte desse time incrível! 
+
+Se não for dessa vez podem ter certeza que tentarei novamente :) Estou disposta a estudar cada vez mais sobre ruby e seria uma grande alegria aprender mais com vocês, saibam que estou disposta a dar tudo de mim para crescer com a empresa e fazer parte desse time campeão ❤️
