@@ -1,1 +1,15 @@
-{ "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
+{
+    "version": 2,
+    "name": "GoDex",
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/static-build",
+        "config": { "distDir": "dist" }
+      }
+    ],
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
+    ]
+  }
+  
