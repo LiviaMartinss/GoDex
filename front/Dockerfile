@@ -1,5 +1,5 @@
-# Use uma imagem base do Node.js
-FROM node:16
+# Use uma imagem base do Node.js para build
+FROM node:16 AS build
 
 # Defina o diretório de trabalho dentro do container
 WORKDIR /app
@@ -8,11 +8,15 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 
-# Copie todo o código do projeto para o container
+# Copie todo o código do projeto e faça o build
 COPY . .
+RUN npm run build
 
-# Exponha a porta em que o Vite roda (geralmente 5173, mas verifique o vite.config.js)
-EXPOSE 5173
+# Use uma imagem NGINX para servir os arquivos estáticos em produção
+FROM nginx:alpine
+COPY --from=build /app/dist /usr/share/nginx/html
 
-# Comando para iniciar o servidor de desenvolvimento do Vite
-CMD ["npm", "run", "dev", "--", "--host"]
+# Exponha a porta 80 para produção
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
