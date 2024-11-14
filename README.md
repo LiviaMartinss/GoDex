@@ -105,7 +105,7 @@ Essas mudanças tornam o código mais eficiente e claro, além de evitar chamada
 ### 7. Integração Completa e Testes Locais
 
 Após resolver vários desafios, consegui finalmente rodar a integração entre o backend e frontend com sucesso em ambiente local. Foi um momento de conquista, pois os serviços estavam todos funcionando no Docker, incluindo o banco de dados e o Adminer. Isso garantiu que a aplicação estava funcional e pronta para os próximos passos. (ufa)
-
+![Depois da Estilização](front/src/assets/docker.jpeg)
 
 ### 8. Desafios no Deploy Final no Vercel e Render
 
