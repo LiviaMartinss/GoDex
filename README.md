@@ -51,7 +51,7 @@ Para executar a aplicação em ambiente local usando Docker, siga as etapas abai
 
 2. Acesse a aplicação:
 
-   - O **frontend** estará disponível em
+   - O **frontend** estará disponível na porta http://localhost:5173
   
      
 ## Como Funciona a Integração
@@ -100,11 +100,11 @@ Para otimizar e organizar o código backend, fiz algumas melhorias:
 - Transformei os métodos `pokemon_name` e `pokemon_info` em métodos privados, pois não precisavam ser públicos.
 - Utilizei memoização (`||=`) no método `show` para simplificar a chamada de `pokemon_info` e evitar dependência de variáveis de instância desnecessárias.
 
-Essas mudanças tornam o código mais eficiente e claro, além de evitar chamadas redundantes à API.
+Essas mudanças tornam o código mais eficiente e claro, além de evitar chamadas redundantes à API. ;)
 
 ### 7. Integração Completa e Testes Locais
 
-Após resolver vários desafios, consegui finalmente rodar a integração entre o backend e frontend com sucesso em ambiente local. Foi um momento de conquista, pois os serviços estavam todos funcionando no Docker, incluindo o banco de dados e o Adminer. Isso garantiu que a aplicação estava funcional e pronta para os próximos passos.
+Após resolver vários desafios, consegui finalmente rodar a integração entre o backend e frontend com sucesso em ambiente local. Foi um momento de conquista, pois os serviços estavam todos funcionando no Docker, incluindo o banco de dados e o Adminer. Isso garantiu que a aplicação estava funcional e pronta para os próximos passos. (ufa)
 
 
 ### 8. Desafios no Deploy Final no Vercel e Render
@@ -115,7 +115,7 @@ Apesar disso, localmente a aplicação funcionava perfeitamente, e decidi focar 
 
 ### 9. Estilização e Melhoria Visual
 
-Para enriquecer o projeto, personalizei o design do frontend:
+Amo deixar meus projetos a minha cara, então personalizei o design do frontend:
 - Adicionei novos pokémons além do Pikachu, como Charmander, Bulbasaur, Squirtle e Jigglypuff.
 - Criei uma estilização personalizada para a página, melhorando a experiência visual.
 
@@ -152,5 +152,7 @@ Adicionei classes CSS para destacar o título e para tornar a página mais inter
 3. **Acessando a Aplicação:**
    - Frontend: `http://localhost:80`
 
-## Conclusão
 
+## Conclusão (Leia é importante!)
+
+Amei a experiência de mergulhar em algo novo e trabalhar com ruby, queria expressar aqui que senti muito por não ter conseguido completar o desafio da maneira que queria, mas também procurei fazer além do que me pediram, essa não é a primeira vez que tento uma vaga com vocês, pois acredito muito nos valores da empresa e quero muito poder fazer parte desse time incrível! Se não for dessa vez podem ter certeza que tentarei novamente :) Estou disposta a estudar cada vez mais sobre ruby e seria uma grande alegria aprender mais com vocês, 
