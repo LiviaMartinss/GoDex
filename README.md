@@ -110,6 +110,7 @@ Essas mudanças tornam o código mais eficiente e claro, além de evitar chamada
 
 Após resolver vários desafios, consegui finalmente rodar a integração entre o backend e frontend com sucesso em ambiente local. Foi um momento de conquista, pois os serviços estavam todos funcionando no Docker, incluindo o banco de dados e o Adminer. Isso garantiu que a aplicação estava funcional e pronta para os próximos passos.
 
+
 ### 8. Desafios no Deploy Final no Vercel e Render
 
 A integração no Vercel continuou a apresentar problemas, especialmente o erro 404. Tentei investigar possíveis causas, como variáveis de ambiente e configurações específicas do backend, mas não consegui configurar o backend adequadamente no Render.
@@ -157,4 +158,3 @@ Adicionei classes CSS para destacar o título e para tornar a página mais inter
 
 ## Conclusão
 
-Embora tenha enfrentado desafios significativos para configurar o deploy no Vercel e Render, consegui completar todos os requisitos para rodar o projeto localmente. Adicionei funcionalidades adicionais, incluindo novos pokémons e uma interface aprimorada, mostrando minha dedicação ao projeto e minha habilidade de resolver problemas. Essa experiência foi muito enriquecedora e me ajudou a entender melhor o processo de deploy e integração de aplicações em
