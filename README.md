@@ -19,7 +19,7 @@
   - [Integração Completa e Testes Locais](#7-integração-completa-e-testes-locais)
   - [Desafios no Deploy Final no Vercel e Render](#8-desafios-no-deploy-final-no-vercel-e-render)
   - [Estilização e Melhoria Visual](#9-estilização-e-melhoria-visual)
-- [Conclusão](#Conclusão (Leia é importante!))
+- [Conclusão](#Conclusão)
 
 ---
 
