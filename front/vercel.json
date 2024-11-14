@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "go-dex",
+    "name": "go-dexx",
     "builds": [
       {
         "src": "package.json",
