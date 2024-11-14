@@ -16,7 +16,7 @@
 }
 
 .card {
-  background-color: #ffff;
+  background-color: #ffffff;
   height: 44%;
   border-radius: 10px;
   margin-top: 5rem;
@@ -30,6 +30,13 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.31);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .sprite-container {
@@ -43,7 +50,7 @@
 .sprite {
   width: 200px;
   height: 200px;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 
 .abilities-container {
@@ -76,7 +83,7 @@ li {
   margin: 0 5px;
   font-weight: bold;
   border-radius: 5px;
-  background-color: #3f3f3f;
+  background-color: #467836;
   text-align: center;
   padding: 5px 10px;
   text-transform: uppercase;

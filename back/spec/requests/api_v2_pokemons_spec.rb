@@ -19,8 +19,8 @@ RSpec.describe 'API V2 Pokemons', type: :request do
                  abilities: { type: :array, items: { type: :string } }
                }
 
+        # Testando com Pikachu
         let(:pokemon_name) { 'pikachu' }
-
         run_test! do
           json_response = JSON.parse(response.body)
           expect(json_response).to be_a(Hash)
@@ -28,6 +28,38 @@ RSpec.describe 'API V2 Pokemons', type: :request do
           expect(json_response).to have_key('abilities')
           abilities = json_response['abilities']
           expect(abilities).to eq(abilities.sort)
+        end
+
+        # Adicionei Bulbasaur
+        let(:pokemon_name) { 'bulbasaur' }
+        run_test! do
+          json_response = JSON.parse(response.body)
+          expect(json_response).to have_key('name')
+          expect(json_response).to have_key('abilities')
+        end
+
+        # Adicionei Charmander
+        let(:pokemon_name) { 'charmander' }
+        run_test! do
+          json_response = JSON.parse(response.body)
+          expect(json_response).to have_key('name')
+          expect(json_response).to have_key('abilities')
+        end
+
+        # Adicionei Squirtle
+        let(:pokemon_name) { 'squirtle' }
+        run_test! do
+          json_response = JSON.parse(response.body)
+          expect(json_response).to have_key('name')
+          expect(json_response).to have_key('abilities')
+        end
+
+        # Adicionei Jigglypuff
+        let(:pokemon_name) { 'jigglypuff' }
+        run_test! do
+          json_response = JSON.parse(response.body)
+          expect(json_response).to have_key('name')
+          expect(json_response).to have_key('abilities')
         end
       end
 

@@ -42,7 +42,9 @@ function App() {
 
   return (
     <div className="App">
+      <div className="Navbar">
       <h1 className="title">Pokédex</h1>
+      </div>
       <SearchBar onSearch={fetchPokemonData} />
       {loading && <LoadingIndicator />}
       {!pokemonSprite && !pokemonAbilities.length && !error ? null : (

@@ -128,11 +128,14 @@ GEM
     nokogiri (1.15.4)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
+    nokogiri (1.15.4-x64-mingw32)
+      racc (~> 1.4)
     parallel (1.23.0)
     parser (3.2.2.3)
       ast (~> 2.4.1)
       racc
     pg (1.5.4)
+    pg (1.5.4-x64-mingw32)
     psych (5.1.0)
       stringio
     public_suffix (5.0.3)
@@ -240,11 +243,14 @@ GEM
     ruby-progressbar (1.13.0)
     sqlite3 (1.6.5)
       mini_portile2 (~> 2.8.0)
+    sqlite3 (1.6.5-x64-mingw32)
     stringio (3.0.8)
     thor (1.2.2)
     timeout (0.4.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2024.2)
+      tzinfo (>= 1.0.0)
     unicode-display_width (2.4.2)
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
@@ -253,6 +259,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   bootsnap
