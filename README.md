@@ -59,10 +59,6 @@ Para executar a aplicação em ambiente local usando Docker, siga as etapas abai
 - O frontend se comunica com o backend para buscar informações sobre os Pokémon. Quando o usuário pesquisa um nome de Pokémon, o frontend faz uma requisição HTTP para o backend, que consulta o banco de dados e retorna os dados necessários.
 - O banco de dados PostgreSQL é instanciado e configurado no Docker Compose para fornecer persistência ao backend.
 
-## Documentação e Acesso
-
-- 📄 O backend inclui uma documentação de API usando Swagger, que pode ser acessada em `http://localhost:3001/api-docs` (caso o Swagger esteja configurado dessa forma).
-- 🌐 Acesse a aplicação completa no seu navegador para explorar a Pokédex e verificar as informações dos Pokémon.
 
 ## Como fiz o meu projeto?
 
