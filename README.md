@@ -92,6 +92,7 @@ Adicionei o arquivo `master.key` e configurei variáveis de ambiente no `docker-
 
 Criei um workflow de CI/CD no GitHub, adicionando a pasta `.github/workflows` com o arquivo de configuração para deploy. Configurei o token do Vercel no GitHub e iniciei o processo de deploy automaticamente.
 
+
 No entanto, ao tentar acessar o Vercel, me deparei com um erro 404. Após verificar a configuração, percebi que o projeto não estava sendo reconhecido automaticamente no Vercel e tive que adicionar manualmente.
 
 ### 6. Otimizações e Melhorias no Código Backend
@@ -105,12 +106,13 @@ Essas mudanças tornam o código mais eficiente e claro, além de evitar chamada
 ### 7. Integração Completa e Testes Locais
 
 Após resolver vários desafios, consegui finalmente rodar a integração entre o backend e frontend com sucesso em ambiente local. Foi um momento de conquista, pois os serviços estavam todos funcionando no Docker, incluindo o banco de dados e o Adminer. Isso garantiu que a aplicação estava funcional e pronta para os próximos passos. (ufa)
-![Depois da Estilização](front/src/assets/docker.jpeg)
+![o](front/src/assets/docker.jpeg)
 
 ### 8. Desafios no Deploy Final no Vercel e Render
 
 A integração no Vercel continuou a apresentar problemas, especialmente o erro 404. Tentei investigar possíveis causas, como variáveis de ambiente e configurações específicas do backend, mas não consegui configurar o backend adequadamente no Render.
-
+![o](front/src/assets/vercel.jpeg)
+![e](front/src/assets/redis.jpeg)![alt text]({86C8B9F2-A8D7-4EC7-A26B-DB7BD6584F93}.png)
 Apesar disso, localmente a aplicação funcionava perfeitamente, e decidi focar em documentar esse processo no README.
 
 ### 9. Estilização e Melhoria Visual
